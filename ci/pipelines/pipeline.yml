@@ -6,7 +6,7 @@ resources:
 - name: source-code
   type: git
   source:
-    uri: git@github.com/sthaniraj/myapp.git
+    uri: https://github.com/sthaniraj/myapp.git
     branch: master
 jobs:
 - name: hello-world
