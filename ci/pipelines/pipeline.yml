@@ -14,6 +14,7 @@ jobs:
   - get: Millenium
     trigger: true
   - get: source-code
+    params: {depth: 100}
   - task: say-hello
     config:
       platform: linux
